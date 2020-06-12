@@ -1,0 +1,32 @@
+//sass variables
+$color0:red;
+$color1:white;
+$talign: center;
+$fsize: 1.4em;
+
+//use of variable and nesting
+#services{
+
+    text-align: $talign;
+    font-size: $fsize;
+
+    p{
+        color: $color0;
+    }
+
+}
+
+//use of variables and inheritence concept
+%information{
+    text-align: $talign;
+    font-size: $fsize;
+}
+
+.error{
+    @extend %information;
+    color: $color0;
+}
+.note{
+    @extend %information;
+    color: $color1;
+}

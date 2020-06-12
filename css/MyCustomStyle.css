@@ -1,0 +1,56 @@
+.img-responsive {
+    width: 100%;
+    height: 40%;
+}
+
+.navbar-nav li {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.nav-item a {
+    color: white;
+    font-size: 1.4em;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    background-color: black;
+    background-position: center;
+    background-size: auto;
+}
+
+.card{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    background-color: black;
+    background-position: center;
+    background-size: auto;
+}
+
+#info {
+    text-align: center;
+    font-size: 1.4em;
+}
+
+@media only screen and (max-width: 768px) {
+
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
+
+    table{
+        font-style: italic;
+    }
+    #thead{
+        color: blue;
+    }
+}
+
+@media (min-width: 768px){
+    #thead{
+        color: red;
+    }
+}
